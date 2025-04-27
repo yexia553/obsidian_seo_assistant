@@ -1,0 +1,47 @@
+/* SEO Assistant Plugin Styles */
+
+/* 结果模态框样式 */
+.seo-description, .seo-keywords {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--background-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.seo-description {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.seo-keywords {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+/* 按钮样式 */
+button {
+    margin-right: 8px;
+    margin-bottom: 15px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+/* 设置页面样式 */
+.setting-item-info {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--background-secondary);
+    color: var(--text-muted);
+    font-size: 13px;
+}

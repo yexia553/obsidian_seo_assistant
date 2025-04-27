@@ -1,0 +1,10 @@
+{
+"id": "obsidian-seo-assistant",
+"name": "SEO Assistant",
+"version": "1.0.0",
+"minAppVersion": "0.15.0",
+"description": "Generate SEO-friendly descriptions and keywords for your Markdown files using LLM.",
+"author": "Zhixiang Pan",
+"authorUrl": "https://github.com/yexia553/obsidian-seo-assistant",
+"isDesktopOnly": false
+}
