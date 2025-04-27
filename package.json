@@ -1,5 +1,5 @@
 {
-"name": "obsidian-seo-assistant",
+"name": "seo-assistant",
 "version": "1.0.0",
 "description": "Generate SEO-friendly descriptions and keywords for your Markdown files using LLM.",
 "main": "main.js",
