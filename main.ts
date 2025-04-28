@@ -22,7 +22,6 @@ export default class SEOAssistantPlugin extends Plugin {
 		this.addCommand({
 			id: 'generate-seo-description-keywords',
 			name: 'Generate SEO Description and Keywords',
-			hotkeys: [{ modifiers: ['Ctrl', 'Alt'], key: 'S' }],
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				this.generateSEO(editor, view);
 			}
@@ -247,8 +246,9 @@ class SEOAssistantSettingTab extends PluginSettingTab {
 				}));
 
 		// Add info message
-		const infoDiv = containerEl.createDiv();
-		infoDiv.addClass('setting-item-info');
-		infoDiv.innerHTML = 'Note: Please ensure you use an OpenAI-compatible model such as gpt-3.5-turbo, gpt-4, etc. Generated SEO descriptions and keywords will be automatically written to the document frontmatter.';
+		const infoDiv = containerEl.createDiv({ cls: 'setting-item-info' });
+		infoDiv.createSpan({
+			text: 'Note: Please ensure you use an OpenAI-compatible model such as gpt-3.5-turbo, gpt-4, etc. Generated SEO descriptions and keywords will be automatically written to the document frontmatter.'
+		});
 	}
 }

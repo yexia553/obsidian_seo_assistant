@@ -4,7 +4,7 @@ A plugin for Obsidian that generates SEO-friendly descriptions and keywords for 
 
 ## Features
 
-- Generate SEO-friendly descriptions and keywords for your Markdown files with a keyboard shortcut
+- Generate SEO-friendly descriptions and keywords for your Markdown files
 - Use HTTP calls to compatible OpenAI LLM APIs
 - Customize API base URL, API key, and model name
 
@@ -19,7 +19,7 @@ A plugin for Obsidian that generates SEO-friendly descriptions and keywords for 
 ## Usage
 
 1. Open a Markdown file
-2. Use the keyboard shortcut (default: `Ctrl+Alt+S`) or the command palette to run "Generate SEO Description and Keywords"
+2. Use the command palette to run "Generate SEO Description and Keywords" or set up your own hotkey in Obsidian settings
 3. The plugin will analyze the current file content and generate SEO-friendly description and keywords
 4. The generated content will be automatically added to the document's frontmatter
 
